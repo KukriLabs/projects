@@ -1,0 +1,60 @@
+---
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to share your idea! 🙏 At Kukri Labs we're enthusiastic about building lean SaaS projects for startups and indie builders. Filling out this form is the first step to having your idea validated and built by us, for you and others having the same problem.
+
+      Please take the time to fill this out with as much detail as possible so we can encourage constructive discussion and feedback from the community.
+
+- type: textarea
+  attributes:
+    label: "Idea"
+    description: Write a short description (1-2 sentences) of your idea.
+    placeholder: A service to ...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: "Context"
+    description: "Provide additional details about the circumstances of your suggestion. What's the context for this idea? What's the problem you're trying to solve?"
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: |
+      ## Confirmation
+      In order to to confirm that this idea is worth building, we need to know that it will be useful to others. Please answer the following questions:
+
+- type: checkboxes
+  attributes:
+    label: "This helps..."
+    description: "How does this idea help startups/indie builders?"
+    options:
+      - label: 💰 Increase revenue
+      - label: ⌛ Save time
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: by...
+    description: "How does this idea address the options you chose above?"
+    placeholder: "automating and simplifying ..."
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Value
+    description: "I would be willing to pay the following for this feature:"
+    placeholder: $50/month
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Additional details
+    description: Please add any other useful information about this idea.
